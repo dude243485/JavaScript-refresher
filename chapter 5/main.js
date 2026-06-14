@@ -52,3 +52,7 @@
 
 // console.log(flatten([1, [3, 4], [5, 6, [9]]]))
 
+function avg(array) {
+    return array.reduce((a, b) => a+b)/ array.length;
+}
+
