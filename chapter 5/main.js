@@ -43,12 +43,12 @@
 
 // ["A", "B"].forEach(l => console.log(l));
 
-console.log([1, 2, 3 ,4].reduce((a, b) => a + b));
+// console.log([1, 2, 3 ,4].reduce((a, b) => a + b));
 
-function flatten (array){
-    let res = array.reduce((a, b) => a.concat(b), []);
-    return res;
-}
+// function flatten (array){
+//     let res = array.reduce((a, b) => a.concat(b), []);
+//     return res;
+// }
 
-console.log(flatten([1, [3, 4], [5, 6, [9]]]))
+// console.log(flatten([1, [3, 4], [5, 6, [9]]]))
 
